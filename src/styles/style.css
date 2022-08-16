@@ -382,7 +382,7 @@ body {
   text-align: left;
   vertical-align: middle;
   letter-spacing: 0.2em;
-  text-transform: uppercase;  
+  text-transform: uppercase;
 }
 
 .info-navigation-item:last-child .info-navigation-link{
@@ -1719,6 +1719,7 @@ body {
 
 .slide-buttom {
   position: absolute;
+  z-index: 1;
   cursor: pointer;
   top: 130px;
   border: 0;
@@ -1729,11 +1730,13 @@ body {
 }
 
 .left-slide {
+  top: 180px;
   left: 30px;
 }
 
 .right-slide {
-  right: 0;
+  top: 180px;
+  right: 600px;
   transform: rotate(180deg);
 }
 
